@@ -28,3 +28,7 @@ def menu():
                 print(f"Resultado: {calculadora.dividir (num1, num2)}")
         else:
             print("Opção inválida!")
+
+
+if __name__ == "__main__":
+    menu()
